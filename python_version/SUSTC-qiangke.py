@@ -75,7 +75,7 @@ def rush(p):
     # print(str(json.loads(result)['success']) + "····\n正在继续加油！\n")
     delay = random.random()*random.random()
     print(result + "\n正在继续加油!\n············%f s 后" % delay)
-    time.sleep(random.random()*random.random())
+    time.sleep(delay)
     return False
 
 # print("空气动力学")
